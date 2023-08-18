@@ -1,5 +1,7 @@
 package with_new_instance_method;
-
+/*
+this object is create using newInstance method belongs to java.lang.class..
+ */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
 
