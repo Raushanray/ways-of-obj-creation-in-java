@@ -1,0 +1,21 @@
+1. Creating an object using newInstance() of constructor class"
+newInstance() -> belongs to java.lang.reflect constructor..
+
+
+2. Difference b/w class.newInstance() and constructor.newInstance()
+a>. class.newInstance() can only one invoke the non-arg constructor. (public and default).
+  but constructor.newInstance() can invoke any constructor..
+
+b>. class.newInstance() requires that the constructor should be visible..
+    but   constructor.newInstance() can also invoke private constructor in certain case.
+
+c>. class.newInstance() throws any Exception thrown by the constructor..
+     but constructor.newInstance()  always wraps the thrown Exception with an InvocationTargetException (wrap all exception in single).
+
+
+3. When you cteate an object using newInstance() of class then internally calls of newInstance() of constructor..
+
+
+4. constructor.newInstance() USED widely in frameworks:-
+  when spring , struts and Hibernate are create an object for u . it internally use constructor.newInstance()
+  and this ways of creating object is called reflecting way of object creation..
