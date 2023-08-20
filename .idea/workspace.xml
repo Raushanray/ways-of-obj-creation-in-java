@@ -59,12 +59,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="with_deserialization_concept" />
       <recent name="with_clone_method" />
       <recent name="with_newInstance_method_constructor" />
       <recent name="with_new_instance_method" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.with_clone_method.Main">
+  <component name="RunManager" selected="Application.with_deserialization_concept.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="with_new_keyword.Main" />
       <module name="ways-of-obj-creation-in-java" />
@@ -84,6 +85,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="with_clone_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="with_deserialization_concept.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="with_deserialization_concept.Main" />
+      <module name="ways-of-obj-creation-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="with_deserialization_concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.with_deserialization_concept.Main" />
         <item itemvalue="Application.with_clone_method.Main" />
         <item itemvalue="Application.with_newInstance_method_constructor.Main" />
         <item itemvalue="Application.with_new_instance_method.Main" />
